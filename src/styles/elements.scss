@@ -8,21 +8,11 @@ body {
     align-items: center;
     margin: 0 auto;
     background-color: var(--color-black-pearl-50);
-
+    padding: var(--container-padding); 
 
     @include tools.container-width;
 }
 
-//Todo: Move to objects
-.main-navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 19.5px 0;
-
-    @include tools.container-width;
-
-}
 
 main {
     display: flex;
@@ -32,7 +22,3 @@ main {
 }
 
 
-//TODO: Move to reset
-a {
-    text-decoration: none;
-}
